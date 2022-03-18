@@ -1,0 +1,164 @@
+html {
+	background-color: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Halvetica, sans-serif;
+	font-size: 100%;
+	margin-left: 10px;
+	border: 3px solid #931420;
+	width: 800px;
+	margin: 0 auto;
+	background: #fffded;
+}
+
+.shadow {text-shadow: 2px 2px 2px #800000;}
+
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image:
+		linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, 
+					  #f6bb73 80%, #f6bb73 100%);
+}
+	
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+header h2 {
+	font-size: 170%;
+	color: #800000;
+		
+}
+	
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+		
+}		
+
+main {
+	clear: left;
+	/*padding-right: 30px;
+	padding-left: 30px;*/
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom : 1.5em;
+	
+}
+section h1 {
+	font-size: 150%;
+	padding-top : .5em;
+	padding-bottom : .25em;
+	margin-top : 0;
+	margin-bottom :0;
+}
+	
+section h2 {
+	font-size : 130%;
+	color : #800000;
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+
+section h3 {
+	font-size : 105%;
+	
+	padding-bottom: .25em;
+}
+	
+section p {
+	padding-bottom: .5em;
+}
+
+section blockquote {
+	font-style: italic;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+article {
+	padding-top : .5em;
+	padding-bottom : .5em;
+	border-top : 2px solid #800000;
+	border-bottom : 2px solid #800000;
+}
+
+article img {
+	float : right;
+	border : 2px solid #555;
+}
+
+article h2 {
+	padding-top : 0;
+}
+	
+article h3 {
+	font-size : 105%;
+	padding-bottom: .25em;
+}	
+
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+
+aside h2 {
+	font-size : 130%;
+	color : #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+
+aside h3 {
+	font-size : 105%;
+	padding-bottom: .25em;
+}
+	
+aside ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+aside li {
+	padding-bottom: .35em;
+}		
+
+aside img {
+	padding-bottom: 1em;
+	border : 2px solid #555;
+}	
+
+	a {font-weight: bold;}
+	a:hover, a:focus{font-style: italic;}
+	
+footer {
+	clear: both;
+	border-top: 3px solid #931420;
+	background-color: #931400;  
+}
+	
+footer p {
+	text-align: center;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+	
